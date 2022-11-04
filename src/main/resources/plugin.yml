@@ -1,0 +1,62 @@
+name: Lazycore
+version: '${project.version}'
+main: lazycore.lazycore.Lazycore
+api-version: 1.19
+commands:
+  login:
+    usage: /login
+    description: Login to the server in order to play
+  register:
+    usage: /register
+    description: Register to the server in order to play
+  vanish:
+    usage: /vanish
+    description: Vanish from the server and let everyone think you're offline
+    permission: vanish
+    permission-message: Missing required permission
+    aliases: [invisible, invis]
+  broadcast:
+    usage: /broadcast
+    description: Broadcast a message to the whole server
+    permission: broadcast
+    permission-message: Missing required permission
+    aliases: [bc]
+  ping:
+    usage: /ping
+    description: Check your ping or someone's ping
+    aliases: [ms, latency, network, net]
+  filereload:
+    usage: /file
+    description: Reload the user login data file
+    permission: filereload
+    permission-message: Missing required permission
+  gmc:
+    usage: /gmc
+    description: Change your gamemode to creative
+    permission: gmc
+    permission-message: Missing required permission
+  gms:
+    usage: /gms
+    description: Change your gamemode to survival
+    permission: gms
+    permission-message: Missing required permission
+  gmsp:
+    usage: /gmsp
+    description: Change your gamemode to spectator
+    permission: gmsp
+    permission-message: Missing required permission
+  gma:
+    usage: /gma
+    description: Change your gamemode to adventure
+    permission: gma
+    permission-message: Missing required permission
+  fly:
+    usage: /fly
+    description: Toggle flying
+    permission: fly
+    permission-message: Missing required permission
+  heal:
+    usage: /heal
+    description: Heal yourself or other player
+    permission: heal
+    permission-message: Missing required permission

@@ -1,0 +1,4 @@
+# Modify the joinMessage and quitMessage to be the same as your server's default message (for vanish)
+
+joinMessage: "{playerName} joined the game"
+quitMessage: "{playerName} left the game"
